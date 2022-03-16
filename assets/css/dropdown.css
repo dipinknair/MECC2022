@@ -1,0 +1,38 @@
+.dropbtn {   
+  color: rgb(255, 255, 255);  
+  padding: 10px;  
+  font-size: 12pt;  
+}
+.dropdown {  
+  display: inline-block;  
+  position: relative  
+}  
+.dropdown-content {  
+  position: absolute;  
+  background-color: rgb(255, 255, 255);  
+  min-width: auto;  
+  display: none;  
+  z-index: 1;  
+}  
+.dropdown-content a {  
+  color: black;  
+  padding: 10px 16px;  
+  text-decoration: none;  
+  display: block;  
+}  
+.dropdown-content a:hover {  
+  /* background-color: orange;   */
+}  
+.dropdown:hover .dropdown-content {  
+  display: block;  
+}  
+.dropdown:hover .dropbtn {  
+  /* background-color: grey; */
+  color: rgb(194, 194, 194)
+}
+.bulletlist {
+  font-size: 14px;
+	line-height: 25px;
+	color: #575454;
+	letter-spacing: 0.2px;
+}
